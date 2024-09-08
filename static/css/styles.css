@@ -1,0 +1,97 @@
+/* Algemene stijl voor de body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f5; /* Lichtgrijze achtergrond voor contrast */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Stijl voor de titel */
+h1 {
+    color: #E60000; /* Vodafone rood */
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Stijl voor het formulier */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; /* Witte achtergrond voor het formulier */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Stijl voor de invoerlabels */
+label {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Stijl voor de tekstinvoer */
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f9f9f9; /* Lichtgrijze achtergrond */
+}
+
+/* Stijl voor de verzendknop */
+input[type="submit"] {
+    background-color: #E60000; /* Vodafone rood */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover-effect voor de verzendknop */
+input[type="submit"]:hover {
+    background-color: #cc0000; /* Donkerdere rood bij hover */
+}
+
+/* Stijl voor de chatbot respons container */
+.chatbot-response {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff4f4; /* Lichtroze achtergrond voor de chatbot-response */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+/* Chatbot respons kop */
+.chatbot-response h3 {
+    color: #E60000; /* Vodafone rood */
+}
+
+/* Paragraaf stijl voor de chatbot respons */
+.chatbot-response p {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Footer stijl */
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #999;
+}
+
+/* Responsieve aanpassing voor kleinere schermen */
+@media (max-width: 768px) {
+    form, .chatbot-response {
+        width: 90%;
+        margin: 20px auto;
+    }
+}
